@@ -1,0 +1,8 @@
+language: csharp
+solution: MSpeedTest.sln
+install:
+  - nuget restore MSpeedTest.sln
+  - nuget install NUnit.Console -Version 3.5.0 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release MSpeedTest.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe ./MSpeedTest/MSpeedTest.Tests/bin/Release/MSpeedTest.Tests.dll
