@@ -2,19 +2,15 @@
 <package >
   <metadata>
     <id>MSpeedTest</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>MSpeedTest</title>
-    <authors>Scottie Enriquez</authors>
-    <owners>Scottie Enriquez</owners>
+    <authors>Uladzimir Kazakevich, Scottie Enriquez</authors>
+    <owners>Uladzimir Kazakevich, Scottie Enriquez</owners>
     <licenseUrl>https://raw.githubusercontent.com/Kwull/NSpeedTest/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/scottenriquez/MSpeedTest</projectUrl>
     <description>Adding Mono/xbuild support to Kwull's NSpeedTest package</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright 2016</copyright>
     <tags>MSpeedTest</tags>
-    <dependencies>
-      <dependency id="System.Web" version="4.0.0.0" />
-      <dependency id="System.Device" version="4.0.0.0" />
-    </dependencies>
   </metadata>
 </package>
